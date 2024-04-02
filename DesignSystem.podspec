@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'DesignSystem'
-    s.version          = '1.0.0'
+    s.version          = '1.1.0'
     s.summary          = 'Container pod that contains all the DS subspecs.'
   
     s.homepage         = 'https://github.com/reybriel/PodTest'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
     s.subspec 'BoM-OLX' do |ss|
         ss.dependency 'TokensCore', '1.0.0'
-        ss.dependency 'TokensOLX', '1.1.0'
+        ss.dependency 'TokensOLX', '1.2.0'
     end
 
   end

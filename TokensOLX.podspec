@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'TokensOLX'
-    s.version          = '1.1.0'
+    s.version          = '1.2.0'
     s.summary          = 'Library that contains the OLX specific tokens of the DS.'
   
     s.homepage         = 'https://github.com/reybriel/PodTest'
