@@ -21,7 +21,8 @@ let package = Package(
         .target(
             name: "TokensCore"),
         .target(
-            name: "TokensOLX"),
+            name: "TokensOLX",
+            dependencies: [.target(name: "TokensCore")]),
         .testTarget(
             name: "TokensCoreTests",
             dependencies: ["TokensCore"]),
